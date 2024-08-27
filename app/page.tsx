@@ -12,6 +12,7 @@ import { StringToBoolean } from 'class-variance-authority/types';
 
 const PDF_URL = 'test.pdf'
 
+const promise = new Promise(() => {})  
 
 interface HighlightPopupProps {
   content: string;
@@ -137,7 +138,6 @@ export default function Component() {
                     }}
                   />
                 );
-
                 return (
                   <Popup
                     popupContent={<HighlightPopup content={highlight.content.text || ""} comment={highlight.comment.text} />}
