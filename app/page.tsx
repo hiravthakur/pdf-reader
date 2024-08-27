@@ -9,12 +9,12 @@ import { ScrollArea } from '@/components/ui/scroll-area'
 import { Card, CardContent } from '@/components/ui/card'
 import { StringToBoolean } from 'class-variance-authority/types';
 
-// You'll need to replace this with the actual path to your PDF file
+
 const PDF_URL = 'test.pdf'
 
 
 interface HighlightPopupProps {
-  content: string; // Adjust based on actual props
+  content: string;
   comment: string;
 }
 
